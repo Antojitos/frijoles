@@ -7,9 +7,6 @@
 - name: install pip
   apt: name=python-pip state=present
 
-- name: install virtualenv
-  apt: name=python-virtualenv state=present
-
 - name: install gunicorn
   pip: name=gunicorn
 
