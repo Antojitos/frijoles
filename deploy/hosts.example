@@ -1,0 +1,5 @@
+[servers]
+web1.example.com
+
+[servers:vars]
+frijoles_server_name=frijoles.example.com

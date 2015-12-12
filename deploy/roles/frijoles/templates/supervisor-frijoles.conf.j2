@@ -1,0 +1,10 @@
+[program:frijoles]
+command = gunicorn -b {{ gunicorn_host }}:{{ gunicorn_port }} -w {{ gunicorn_workers }} frijoles:app
+environment = FRIJOLES_CONFIG="/etc/frijoles/config.py"
+
+autostart = true
+autorestart = true
+
+redirect_stderr = False
+stdout_logfile = /var/log/supervisor/frijoles_stdout.log
+stderr_logfile = /var/log/supervisor/frijoles_stderr.log
