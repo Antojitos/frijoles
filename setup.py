@@ -7,14 +7,14 @@ with open('README.rst') as file:
 
 setup(
     name="frijoles",
-    version="0.1.0",
+    version="0.1.1",
     author="Pablo SEMINARIO",
     author_email="pablo@seminar.io",
     description="Simple notifications powered by jumping beans",
     long_description=long_description,
     license="GNU Affero General Public License v3",
     url="http://frijoles.antojitos.io/",
-    download_url="https://github.com/Antojitos/frijoles/archive/0.1.0.tar.gz",
+    download_url="https://github.com/Antojitos/frijoles/archive/0.1.1.tar.gz",
     keywords=["frijoles", "notifications", "api"],
     classifiers=[
         'Development Status :: 3 - Alpha',

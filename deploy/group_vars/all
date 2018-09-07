@@ -2,7 +2,7 @@
 # Variables listed here are applicable to all host groups
 
 frijoles_server_name: frijoles.example.com
-frijoles_version: 0.1.0
+frijoles_version: 0.1.1
 
 gunicorn_host: 127.0.0.1
 gunicorn_port: 8000
